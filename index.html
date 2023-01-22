@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <title>Survey Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <h1 id="title">Product/Service Survey Form</h1>
+    <p id="description">Thank you for your valuable feedback</p>
+    <br>
+    <form id="survey-form">
+        <div>
+            <label for="name" id="name-label">Name
+                <input type="text" id="name" placeholder="Enter your name" name="name" required />
+            </label>
+            <label for="email" id="email-label">Email
+                <input type="email" id="email" placeholder="Enter your email" name="email" required />
+            </label>
+            <label for="age" id="number-label">Age
+                <input type="number" id="number" name="age" min="13" max="120" placeholder="Enter your age here"
+                    required />
+            </label>
+
+            <label>What best describes you?
+                <select name="role" id="dropdown">
+                    <option value="select">(Select one below)</option>
+                    <option value="student">Student</option>
+                    <option value="graduate">Graduate</option>
+                    <option value="Intern">Intern</option>
+                    <option value="fulltime">Full-Time Professiobal</option>
+                    <option value="parttime">Part-Time Professiobal</option>
+                    <option value="retired">Retired</option>
+                    <option value="other">Other</option>
+                </select>
+            </label>
+            <label for="yes">Would you recommend product/service to your friends?
+                <input type="radio" name="survey-form" value="Rbutton" />Yes
+            </label>
+            <label for="no">
+                <input type="radio" name="survey-form" value="Rbutton" />No
+            </label>
+            <label>If no, why not?
+                <input type="checkbox" name="survey-form" value="" />
+            </label>
+            <label for="checked">Receive email alerts?
+                <input type="checkbox" name="survey-form" value="checked" />
+            </label>
+            <label>I have read the terms & conditions (check below)
+                <input type="checkbox" name="survey-form" value="checked" />
+            </label>
+            <label>Any comments or suggestions?
+                <textarea name="comments" placeholder="Enter comments here..."></textarea>
+            </label>
+            <p>GET IN TOUCH WITH US ON OUR SOCIAL MEDIA PLATFORMS TO LEAVE REVIEWS & RATINGS!</p>
+            <div>
+                <a href="mailto:feizel.maduna@gmail.com" class="fa fa-envelope"></a>
+                <a href="tel:0659522692" class="fa fa-whatsapp"></a>
+                <a href="https://github.com/Feizel" class="fa fa-github"></a>
+                <a href="https://www.linkedin.com/in/feizel-ze-maduna" class="fa fa-linkedin"></a>
+            </div>
+            <br>
+            <label>
+                <input type="submit" id="submit" name="Submit" />
+            </label>
+        </div>
+    </form>
+    <br>
+    <footer>
+        <div><span>Copyright 2023,  <a href="https://feizel.github.io/Coming-Soon-Landing-Page/">Atomus Developers</a> (C)</span></div>
+    </footer>
+</body>
+
+</html>

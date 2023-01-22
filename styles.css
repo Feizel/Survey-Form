@@ -1,0 +1,95 @@
+#title {
+    font: Arial;
+    size: 55px;
+    color: black;
+
+}
+
+#description {
+    text-align: center;
+}
+
+body {
+    text-align: center;
+    size: 55px;
+    color: black;
+    background-color: #e6e2d3;
+    font-family: Verdana;
+
+}
+
+form {
+    background-color: #c4b7a6;
+    max-width: 500px;
+    margin: 5px auto;
+    padding: 20px 10px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+input,
+select,
+textarea {
+    text-align: center;
+    display: block;
+    border: 1px solid #777;
+    font-family: inherit;
+    padding: 10px;
+    width: 95.5%;
+}
+
+input[name="yes"],
+input[name="no"],
+input[name="checkbox"] {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    margin: 100%;
+
+}
+
+input[name="submit"] {
+    display: block;
+    font-family: inherit;
+    background-color: #05c46b;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#submit {
+    color: black;
+    /*background-image: radial-gradient(circle at 100% 0%, rgba(94, 138, 243, 1) 15%, rgba(243, 61, 223, 1));*/
+    background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    margin: 0;
+    padding: 10px 0px;
+    font-weight: bolder;
+}
+
+#submit:hover {
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+    color: aliceblue;
+}
+
+.fa {
+    color: black;
+    padding: 5px;
+}
+
+.fa:hover {
+    opacity: .5;
+    color: aliceblue;
+    transition: ease 0.8s;
+}
+
+footer>ul {
+    display: flex;
+    justify-content: center;
+}
